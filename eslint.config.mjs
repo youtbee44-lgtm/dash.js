@@ -1,6 +1,10 @@
 import globals from 'globals';
 
 export default [{
+    ignores: [
+        'samples/dash-if-reference-player-legacy/**',
+    ],
+
     languageOptions: {
         globals: {
             ...globals.browser,
